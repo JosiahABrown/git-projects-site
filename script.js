@@ -37,7 +37,7 @@ const displayProfile = function (profile) {
             <p>
                 <strong>@${profile.login} </strong>
                 Repos: ${profile.public_repos}
-                Gists: ${profile.public_gists}
+                Followers: ${profile.followers}
             </p>
         </div>
     `;
