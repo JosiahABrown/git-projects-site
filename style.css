@@ -1,9 +1,9 @@
 :root {
-    --text: #e5e5e5;
-    --accent: #1688f0;
-    --bg-main: #000;
-    --bg-repo: #0f0f1a;
-    --bg-user: #0a0a0f;
+    --text: #ebdbb2;
+    --accent: #689d6a;
+    --bg-main: #1d2021;
+    --bg-repo: #3c3836;
+    --bg-user: #504945;
 }
 
 * {
@@ -113,6 +113,22 @@ ul {
     padding: 0;
     border-bottom: 1px solid var(--text);
     padding-bottom: 18px;
+}
+
+.social {
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: center;
+    background-color: var(--bg-user);
+    color: var(--text);
+    font-size: 18px;
+    padding: 2em;
+	margin-top: 0;
+	width: 100%;
+}
+
+.social h2 {
+	color: var(--accent)
 }
 
 .filter-repos,
