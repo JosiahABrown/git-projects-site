@@ -134,29 +134,46 @@ ul {
 .grid-container {
 	display: grid;
 	grid-template-columns: auto auto auto auto;
-	padding: 10px;
+	padding: 20px;
 	gap: 50px;
 }
 
 .grid-item {
 	background-color: var(--bg-user);
 	text-align: center;
-	padding: 20%;
+	padding: 10%;
 	border-radius: 25px;
     border: 1px solid var(--accent);
-	min-width: 100px;
+	min-width: 150px;
 }
 
 .grid-item:hover {
+    background-color: var(--bg-main);
     box-shadow: 0 3px 6px var(--accent), 0 3px 6px var(--accent);
 }
 
-.grid-item > img {
+.grid-item img {
 	border: none;
     box-shadow: none;
     max-width: 100%;
     height: auto;
-	margin-top: 5%;
+	margin-bottom: 15%;
+}
+
+.grid-item a {
+	margin-top: 10%;
+	margin-bottom: 10%;
+    padding: 10px 20px;
+    background: var(--bg-main);
+    border-radius: 30px;
+    border: 2px solid var(--accent);
+    color: var(--text);
+}
+
+.grid-item a:hover {
+    background: var(--accent);
+    border: 2px solid var(--text);
+    transform: scale(1.1);
 }
 
 .filter-repos,
@@ -186,6 +203,13 @@ input {
 }
 
 h3 {
+    margin: 4px;
+    width: 100%;
+    text-align: center;
+    color: var(--accent);
+}
+
+h2 {
     margin: 4px;
     width: 100%;
     text-align: center;
