@@ -272,12 +272,18 @@ h2 {
     .repo-list li {
         width: 48%;
     }
+
 }
 
 @media (max-width: 700px) {
     .user-info div p {
         margin: 10px;
     }
+
+	.grid-container {
+		grid-template-columns: auto auto;
+
+	}
 }
 
 @media (min-width: 1200px) {
@@ -285,3 +291,4 @@ h2 {
         width: 30%;
     }
 }
+
